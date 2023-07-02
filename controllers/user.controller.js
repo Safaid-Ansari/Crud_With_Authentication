@@ -59,7 +59,6 @@ module.exports.login = asyncHandler(async (req, res) => {
     }
     // Validate if user exist in our database
     const user = await User.findOne({ email: email });
-    console.log(user);
     const comparedPassword = await bcrypt.compare(password, user.password);
 
     console.log(comparedPassword);
