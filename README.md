@@ -39,3 +39,8 @@ MONGO_URI = mongodb://127.0.0.1:27017/Crud_With_Authentication
 ```
 
 
+## you can see the swagger documentation here 
+
+link : http://localhost:8000/api-docs
+
+
